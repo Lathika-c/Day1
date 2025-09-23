@@ -1,0 +1,14 @@
+sila wants to know how the Arithmetic operators are performing in programming.could you please help her to learn the Arithmetic calculation.
+import math
+a=int(input())
+b=int(input())
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+mod=a%b
+print(f"Addition={add}")
+print(f"Subtraction={sub}")
+print(f"Multiplication={mul}")
+print(f"Division={math.floor(div)}")
+print(f"Modulo={mod}")
