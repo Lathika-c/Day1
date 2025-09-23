@@ -1,0 +1,10 @@
+Write a Java program to swap two variables without using third variable.
+a=int(input())
+b=int(input())
+print(f"The First value before Swapping:{a}")
+print(f"The Second value before Swapping:{b}")
+a=a+b
+b=a-b
+a=a-b
+print(f"The First value after Swapping:{a}")
+print(f"The Second value after Swapping:{b}")
