@@ -1,0 +1,13 @@
+ohra went to a movie with his friends in a Wave theatre and during break time he bought pizzas, puffs and cool drinks. Consider the following prices :
+
+Rs.100/pizza Rs.20/puffs Rs.10/cooldrink Generate a bill for What Vohra has bought.
+p=int(input())
+e=int(input())
+c=int(input())
+total=(p*100)+(e*20)+(c*10)
+print("Bill Details")
+print(f"No of pizzas:{p}")
+print(f"No of puffs:{e}")
+print(f"No of cooldrinks:{c}")
+print(f"Total price={total}")
+print("ENJOY THE SHOW!!!")
