@@ -1,0 +1,12 @@
+John wants to know how to calculate the subject marks.could you please help him to learn marks calculation in programming.
+a=input()
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+print(f"Name of the Student:{a}")
+sum1=b+c+d+e+f
+avg=sum1/5
+print(f"Total marks:{sum1}")
+print(f"Average marks:{avg}")
