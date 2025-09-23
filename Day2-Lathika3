@@ -1,0 +1,19 @@
+Veena wants to learn shape calculation for Square,Rectangle,Circle,Triangle to implements in programming.Could you please help her to how to write the program. - Square formula:a*a - Rectangle formula:l*b - Circle formula:πr^2 - Triangle formula:1/2*(b*h)
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+a=int(input())
+l=int(input())
+b=int(input())
+r=int(input())
+b1=int(input())
+h=int(input())
+pi=math.pi
+sq=a*a
+rec=l*b
+cir=pi*r*r
+res=int(cir*100)/100
+tri=(1/2)*(b1*h)
+print(f"Area of Square={sq}")
+print(f"Area of Rectangle={rec}")
+print(f"Area of Circle={res}")
+print(f"Area of Triangle={int(tri)}")
