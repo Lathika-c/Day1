@@ -1,0 +1,6 @@
+Kumar wants to know how to display the numbers in programming.can you please guide him to display the numbers.
+
+a=int(input())
+b=float(input())
+print(int(a))
+print(f"{b:.2f}")
