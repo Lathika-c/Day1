@@ -1,0 +1,8 @@
+Riya wants to find the sum of range values. could you please help her to implements the program.
+a=int(input())
+b=int(input())
+res=0
+if(a<b):
+    for i in range(a,b+1):
+        res=res+i
+    print(f"The sum of Range value from {a} to {b} is {float(res)}")
